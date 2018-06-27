@@ -1,7 +1,24 @@
 {
-  "users": [
-    { "id": 1, "name": "Pascal PELLET-DOYEN" },
-    { "id": 2, "name": "Pierre-Louis PELLET-DOYEN" },
-    { "id": 3, "name": "Marie-Cécile BEAUQUIS" }
+  "patients": [
+    { "id": 1, "name": "Pascal PELLET-DOYEN", "age": 28, "vaccins": [
+        { "id": 1, "name":"tétanos" },
+        { "id": 2, "name":"rage" },
+        { "id": 3, "name":"coqueluche" }
+  ] },
+    { "id": 2, "name": "Pierre-Louis PELLET-DOYEN", "age": 1, "vaccins": [
+        { "id": 1, "name":"tétanos" },
+        { "id": 2, "name":"rage" },
+        { "id": 3, "name":"coqueluche" }
+  ] },
+    { "id": 3, "name": "Marie-Cécile BEAUQUIS", "age": 27, "vaccins": [
+        { "id": 1, "name":"tétanos" },
+        { "id": 2, "name":"rage" },
+        { "id": 3, "name":"coqueluche" }
+  ] },
+    { "id": 4, "name": "Marie-Cécile BEAUQUIS", "age": 26, "vaccins": [
+        { "id": 1, "name":"tétanos" },
+        { "id": 2, "name":"rage" },
+        { "id": 3, "name":"coqueluche" }
+  ] }
   ]
 }
